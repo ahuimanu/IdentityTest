@@ -1,0 +1,25 @@
+@page
+@model ShowUsersModel
+@{
+    ViewData["Title"] = "Show Users";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <ul>
+            <li>
+                @foreach (var user in Model.Users)
+                {
+                    <b>@user.UserName</b>
+                }                
+            </li>
+        </ul>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
