@@ -2,6 +2,10 @@
 
 Quick tests of Authentication and Authorization
 
+```
+dotnet aspnet-codegenerator controller --model Domain.StudentOutcome --dataContext CIT.Data.SchoolContext --referenceScriptLibraries --useSqlite
+```
+
 ## Git Basics
 
 As I will create branches for each phase of the tutorial, I first review some git basics.
