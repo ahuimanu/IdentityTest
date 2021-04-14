@@ -18,8 +18,6 @@ We need to initialize the repository so that git can track changes in a given fo
 
 ### Cloning
 
-In many cases, such as with the [Flask tutorial](https://github.com/pallets/flask/tree/1.1.2/examples/tutorial), it may be just as easy to clone an existing repository.
-
 You can clone a repo with this command:
 
 `git clone /path/or/url/to/repository`
